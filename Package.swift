@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
 	name: "card.io-package",
-	targets: [.target(name: "c", dependencies:["cpplib"]),
-			  .target(name: "objc", dependencies:["cpplib"]),
+	targets: [.target(name: "c", dependencies:["lib"]),
+			  .target(name: "objc", dependencies:["lib"]),
 	]
 )
