@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-	name: "card.io-package",
+	name: "CardIO",
 	products: [
 			// Products define the executables and libraries a package produces, and make them visible to other packages.
 			.library(
-				name: "card.io-package",
+				name: "CardIO",
 				targets: ["lib","c","objc"]),
 		],
 		dependencies: [
