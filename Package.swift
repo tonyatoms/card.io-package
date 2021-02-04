@@ -20,9 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "card.io-package",
-            dependencies: []),
-        .testTarget(
-            name: "card.io-packageTests",
-            dependencies: ["card.io-package"]),
+            dependencies: ["cpplib"]),
     ]
 )
