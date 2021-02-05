@@ -33,7 +33,7 @@ let package = Package(
 				path: "Sources/objc",
 				resources: [
 					.process("CardIOCreditCardInfo.h"),
-					.process("CardIODetectionMode.h"),
+					.process("CardIO.h"),
 					.process("CardIOView.h"),
 					.process("CardIOUtilities.h"),
 					.process("CardIOViewDelegate.h"),
