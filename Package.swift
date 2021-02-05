@@ -26,8 +26,8 @@ let package = Package(
 			.target(
 				name: "c",
 				path: "Sources/c",
-				resources: [.process("CardIODetectionMode.h")]
-			),
+				resources: [.process("CardIODetectionMode.h")],
+				publicHeadersPath: "."),
 			.target(
 				name: "objc",
 				path: "Sources/objc",
@@ -39,6 +39,7 @@ let package = Package(
 					.process("CardIOViewDelegate.h"),
 					.process("CardIOPaymentViewController.h"),
 					.process("CardIOPaymentViewControllerDelegate.h"),
-				]),
+				],
+				publicHeadersPath: ".")
 		]
 )
